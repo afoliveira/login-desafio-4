@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <main>
+    <article class="container">
+
+      <div class="about-us">
+        <img src="./img/about-us.svg" alt="about-us">
+      </div>
+
+      <div class="section-form">
+        <div class="container-form">
+          <span class="welcome">Bem vindo de volta</span>
+          <h1 class="title">Faça login na sua conta</h1>
+
+          <form class="form">
+            <div class="input-container">
+              <label for="email">E-mail</label>
+              <input id="email" type="text" name="email">
+            </div>
+            <div class="input-container">
+              <label for="password">Senha</label>
+              <input id="password" type="password" name="password">
+            </div>
+            <div class="forget-password">
+              <div class="remember">
+                <input type="radio" name="remember" id="remember" name="remember">
+                <label>Lembre de mim</label>
+              </div>
+              <a href="/">Esqueceu sua senha?</a>
+            </div>
+
+            <button type="submit" value="Entrar" id="submit" class="btn">Entrar</button>
+            <button class="btn login-google">
+              <img src="./img/google.svg">
+              Ou faça login com o Google
+            </button>
+          </form>
+          <span class="have-account">Não tem uma conta? <a href="/">Cadastre-se</a></span>
+        </div>
+      </div>
+
+    </article>
+  </main>
+</body>
+
+</html>

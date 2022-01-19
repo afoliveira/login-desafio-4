@@ -1,0 +1,151 @@
+/* General style */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Login */
+
+.about-us {
+  display: none;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 4.43rem 2rem 3.25rem 2rem;
+}
+
+@media (min-width: 1024px) {
+  .about-us {
+    display: block;
+  }
+
+  .container {
+    padding: 0;
+    /* place-items: center center; */
+    grid-template-columns: repeat(2, 1fr);
+    height: 100vh;
+  }
+
+  .section-form {
+    padding: 5rem 0;
+    align-items: flex-end;
+    justify-items: center;
+  }
+
+  .container-form {
+    width: 400px;
+  }
+
+  .about-us {
+    background-color: #f7fafc;
+    display: grid;
+    place-items: center center;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.welcome {
+  font-family: "Merriweather", serif;
+  line-height: 1.25rem;
+  color: #1a202c;
+}
+
+.title {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 1.625rem;
+  margin-top: 0.625rem;
+  margin-bottom: 2.4375rem;
+  color: #1a202c;
+}
+
+.section-form {
+  display: grid;
+}
+
+.form {
+  display: grid;
+}
+
+.input-container {
+  display: grid;
+  gap: 0.6875rem;
+}
+
+.input-container:first-child {
+  margin-bottom: 0.6875rem;
+}
+
+.input-container label {
+  font-family: "Lato", sans-serif;
+  color: #1a202c;
+}
+
+.input-container input {
+  border-radius: 5px;
+  padding: 1rem 1.25rem;
+  outline: none;
+  border: 1px solid #e8e8e8;
+}
+
+.forget-password {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.75rem 0;
+  font-size: 0.875rem;
+  font-family: "Lato", sans-serif;
+}
+
+.forget-password a {
+  color: #2b6cb0;
+}
+
+.remember input {
+  margin-right: 0.5rem;
+}
+
+.btn {
+  color: #fff;
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+#submit {
+  background-color: #04c45c;
+  margin-bottom: 1rem;
+}
+
+.login-google {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a202c;
+  margin-bottom: 8rem;
+}
+
+.login-google img {
+  margin-right: 0.5rem;
+}
+
+.have-account {
+  display: block;
+  text-align: center;
+}
